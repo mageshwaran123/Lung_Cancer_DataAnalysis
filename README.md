@@ -2,7 +2,8 @@
 
 DataSet - https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link
 
-# 1. Feature Importance and Predictive Modeling : Feature importance analysis for predicting the level of lung cancer using a RandomForestClassifier. Here is a summary of the steps:
+# 1. Feature Importance and Predictive Modeling : 
+Feature importance analysis for predicting the level of lung cancer using a RandomForestClassifier. Here is a summary of the steps:
 
 Data Preprocessing: The dataset is loaded from a CSV file, and the features and target variable are separated. The 'index', 'Patient Id', and 'Level' columns are dropped from the features (X), and the 'Level' column is used as the target variable (y).
 
@@ -14,7 +15,8 @@ Model Training and Evaluation: Another instance of the RandomForestClassifier is
 
 Interpretation of Feature Importance: Finally, a bar plot is created using matplotlib to visualize the feature importances. This plot helps in identifying which features have the most significant impact on predicting the level of lung cancer.
 
-# 2. Gender Differences in Lung Cancer Risk: Analyzes and visualizes the distribution of lung cancer levels based on gender using a dataset of cancer patient data.
+# 2. Gender Differences in Lung Cancer Risk: 
+Analyzes and visualizes the distribution of lung cancer levels based on gender using a dataset of cancer patient data.
 
 Load the Dataset: The dataset is loaded from a CSV file named 'cancer patient data sets.csv' into a DataFrame called data1.
 
@@ -26,7 +28,8 @@ Plot Distribution of Lung Cancer Levels for Each Gender: Two pie charts are crea
 
 Save and Display the Plot: The pie charts are saved as 'distribution of lung cancer levels gender.png' and displayed using plt.show().
 
-# 3. Lifestyle and Lung Cancer: analysis of the relationship between three lifestyle factors (Smoking, Alcohol use, Obesity) and the risk of lung cancer using a dataset of cancer patient data.
+# 3. Lifestyle and Lung Cancer: 
+Analysis of the relationship between three lifestyle factors (Smoking, Alcohol use, Obesity) and the risk of lung cancer using a dataset of cancer patient data.
 
 Import seaborn library: The code imports the seaborn library as sns. Seaborn is a Python data visualization library based on matplotlib that provides high-level interface for creating informative and attractive statistical graphics.
 
@@ -38,7 +41,8 @@ Analyze Lifestyle Factors and Lung Cancer: The code creates a single row of subp
 
 Save and Display the Plot: The subplots are saved as 'lifestyle_factors_and_lung_cancer_risk.png' and displayed using plt.show().
 
-# 4. Association of Environmental Factors with Lung Cancer: analysis of the relationship between three environmental factors (Air Pollution, Dust Allergy, Occupational Hazards) and the prevalence of lung cancer using a dataset of cancer patient data.
+# 4. Association of Environmental Factors with Lung Cancer: 
+Analysis of the relationship between three environmental factors (Air Pollution, Dust Allergy, Occupational Hazards) and the prevalence of lung cancer using a dataset of cancer patient data.
 
 Load the Dataset: The dataset is loaded from a CSV file named 'cancer patient data sets.csv' into a DataFrame called data4.
 
@@ -48,7 +52,8 @@ Analyze Environmental Factors and Lung Cancer Prevalence: The code creates a sin
 
 Save and Display the Plot: The subplots are saved as 'environmental_factors_and_lung_cancer_prevalence.png' and displayed using plt.show().
 
-# 5. Comorbidity Analysis: analysis of the relationship between chronic lung diseases and the risk of lung cancer using a dataset of cancer patient data.
+# 5. Comorbidity Analysis: 
+Analysis of the relationship between chronic lung diseases and the risk of lung cancer using a dataset of cancer patient data.
 
 Load the Dataset: The dataset is loaded from a CSV file named 'cancer patient data sets.csv' into a DataFrame called data5.
 
@@ -58,7 +63,8 @@ Analyze Comorbidity and Lung Cancer Risk: The code creates a single plot to visu
 
 Save and Display the Plot: The plot is saved as 'comorbidity_and_lung_cancer_risk.png' and displayed using plt.show().
 
-# 6. Symptom Clustering and Disease Progression : clustering analysis using the k-means algorithm on cancer patient data to identify clusters of patients based on their symptoms. It then analyzes the disease progression and response to treatment for each cluster.
+# 6. Symptom Clustering and Disease Progression : 
+Clustering analysis using the k-means algorithm on cancer patient data to identify clusters of patients based on their symptoms. It then analyzes the disease progression and response to treatment for each cluster.
 
 Import Necessary Libraries: The code imports the required libraries, including KMeans for clustering and StandardScaler for feature scaling.
 
