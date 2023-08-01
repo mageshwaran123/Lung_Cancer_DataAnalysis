@@ -24,7 +24,7 @@ Data Preparation: The data is split into two DataFrames, male_data and female_da
 
 Distribution of Lung Cancer Levels: The number of occurrences of each lung cancer level for both males and females is calculated and stored in the variables male_level_distribution and female_level_distribution, respectively.
 
-Plot Distribution of Lung Cancer Levels for Each Gender: Two pie charts are created side by side using matplotlib to visualize the distribution of lung cancer levels for males and females. The pie charts show the percentage distribution of different lung cancer levels (e.g., Stage 1, Stage 2, etc.) for each gender.
+Plot Distribution of Lung Cancer Levels for Each Gender: Two pie charts are created side by side using matplotlib to visualize the distribution of lung cancer levels for males and females. The pie charts show the percentage distribution of different lung cancer levels (Low, Medium and High) for each gender.
 
 Save and Display the Plot: The pie charts are saved as 'distribution of lung cancer levels gender.png' and displayed using plt.show().
 
